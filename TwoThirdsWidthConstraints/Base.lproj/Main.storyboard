@@ -18,20 +18,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="XR3-Oj-Vdw" userLabel="MyTextView">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XR3-Oj-Vdw" userLabel="MyTextView">
                                 <rect key="frame" x="0.0" y="20" width="400" height="200"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Two thirds wide x one third high
+                                <string key="text">This TextVuew stays 2/3 wide by 1/3 high: Run on iPad and iPhone see correct resize on device rotation
 
 Remember to set View Draw Mode = ReDraw to update view on device rotation</string>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView userInteractionEnabled="NO" alpha="0.79999999999999982" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SizeContraint.png" translatesAutoresizingMaskIntoConstraints="NO" id="oAo-7x-cic">
+                                <rect key="frame" x="16" y="228" width="568" height="323"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="XR3-Oj-Vdw" firstAttribute="top" secondItem="0MB-Bt-3FD" secondAttribute="bottom" id="5gb-RD-V6s"/>
+                            <constraint firstItem="oAo-7x-cic" firstAttribute="top" secondItem="XR3-Oj-Vdw" secondAttribute="bottom" constant="8" id="DKA-KH-0MA"/>
+                            <constraint firstItem="oAo-7x-cic" firstAttribute="leading" secondItem="SoY-8g-8SJ" secondAttribute="leadingMargin" id="MBz-Cd-Y5H"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="oAo-7x-cic" secondAttribute="trailing" id="PCL-bf-Izh"/>
                             <constraint firstItem="XR3-Oj-Vdw" firstAttribute="leading" secondItem="SoY-8g-8SJ" secondAttribute="leadingMargin" constant="-16" id="X54-R5-uzA"/>
+                            <constraint firstItem="XC0-vi-9Ks" firstAttribute="top" secondItem="oAo-7x-cic" secondAttribute="bottom" id="YuI-fd-JM3"/>
                             <constraint firstItem="XR3-Oj-Vdw" firstAttribute="height" secondItem="SoY-8g-8SJ" secondAttribute="height" multiplier="1:3" id="Z2l-O0-Rfc"/>
                             <constraint firstItem="XR3-Oj-Vdw" firstAttribute="width" secondItem="SoY-8g-8SJ" secondAttribute="width" multiplier="2:3" id="iAh-AZ-VgX"/>
                         </constraints>
@@ -95,4 +102,7 @@ Remember to set View Draw Mode = ReDraw to update view on device rotation</strin
             <point key="canvasLocation" x="1975" y="1484"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="SizeContraint.png" width="266" height="251"/>
+    </resources>
 </document>

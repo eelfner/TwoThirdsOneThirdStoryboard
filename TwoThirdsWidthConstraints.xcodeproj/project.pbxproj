@@ -13,6 +13,7 @@
 		B6B30E901AD598B900FD50D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6B30E8F1AD598B900FD50D9 /* Images.xcassets */; };
 		B6B30E931AD598B900FD50D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6B30E911AD598B900FD50D9 /* LaunchScreen.xib */; };
 		B6B30E9F1AD598B900FD50D9 /* TwoThirdsWidthConstraintsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B30E9E1AD598B900FD50D9 /* TwoThirdsWidthConstraintsTests.swift */; };
+		B6B30EA91AD59F4900FD50D9 /* SizeContraint.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B30EA81AD59F4900FD50D9 /* SizeContraint.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B6B30E981AD598B900FD50D9 /* TwoThirdsWidthConstraintsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoThirdsWidthConstraintsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6B30E9D1AD598B900FD50D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6B30E9E1AD598B900FD50D9 /* TwoThirdsWidthConstraintsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoThirdsWidthConstraintsTests.swift; sourceTree = "<group>"; };
+		B6B30EA81AD59F4900FD50D9 /* SizeContraint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SizeContraint.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				B6B30E881AD598B900FD50D9 /* AppDelegate.swift */,
 				B6B30E8A1AD598B900FD50D9 /* ViewController.swift */,
 				B6B30E8C1AD598B900FD50D9 /* Main.storyboard */,
+				B6B30EA81AD59F4900FD50D9 /* SizeContraint.png */,
 				B6B30E8F1AD598B900FD50D9 /* Images.xcassets */,
 				B6B30E911AD598B900FD50D9 /* LaunchScreen.xib */,
 				B6B30E861AD598B900FD50D9 /* Supporting Files */,
@@ -195,6 +198,7 @@
 				B6B30E8E1AD598B900FD50D9 /* Main.storyboard in Resources */,
 				B6B30E931AD598B900FD50D9 /* LaunchScreen.xib in Resources */,
 				B6B30E901AD598B900FD50D9 /* Images.xcassets in Resources */,
+				B6B30EA91AD59F4900FD50D9 /* SizeContraint.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
